@@ -1,0 +1,55 @@
+h1{
+	text-align: left;
+	padding-top: 20px;
+}
+
+.booking-container{
+	width: 1000px;
+	height: 500px;
+  	background-color: #C6DCE4;
+  	padding-top: 30px;
+  	margin-right: auto;
+  	margin-left: auto;
+  	font-size: 20px;
+}
+/*
+.booking-container{
+  width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}*/
+
+.text1{
+	margin-left: 30px;
+}
+
+input[type=text], select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+/*
+input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+*/
+::placeholder{
+    color: #e5e5e5;
+}
+
+
